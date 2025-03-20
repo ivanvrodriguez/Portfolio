@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+body {
+  font-family: Inter;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.nav {
+  display: none;
+    font-size: large;
+    margin-top: 20px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  /* padding: 14px 16px; */
+  text-decoration: none;
+}
+
+li a:hover {
+  color: gray;
+}
+
+.nav-left {
+  float: left;
+}
+
+.nav-right {
+  float: right;
+}
+.nav-right a {
+  margin-right: 14px;
+}
+
+.socials > a {
+  margin-left: 10px;
+  font-size: 20px;
+  color: black;
+}
+
+.basic-info > div > h1 {
+  font-size: 60px;
+  margin-bottom: 10px;
+}
+
+.basic-info > div > p {
+  font-size: 20px;
+}
+
+.basic-info > div > h5 {
+  font-size: 30px;
+  margin-top: 0px;
+  color: darkslategray;
+}
+
+.experience > h4 {
+  margin-bottom: 0;
+}
+
+.experience > h5 {
+  margin-bottom: 0;
+}
+
+.project > h4 {
+  margin-top: 60px;
+  margin-bottom: 0;
+}
+
+.tools > p {
+  display: inline;
+  margin-left: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  border-style: none;
+  border-radius: 20px;
+  color: white;
+  background-color: darkslategray;
+}
+
+.contact > p > a{
+  color: black;
+}
+
+.contact > i{
+  display: block;
+  margin-bottom: 16px;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+p {
+  font-size: 20px;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+h4 {
+  font-size: 25px;
+}
+
+h5 {
+  font-size: 22px;
+}
+
+@media (max-width: 768px) {
+    body {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .nav {
+        display: none;
+        font-size: xx-small;
+    }
+
+    .nav-left, .nav-right {
+        float: none;
+        text-align: center;
+    }
+
+    .nav-right a {
+        display: block;
+        margin: 1px 0;
+    }
+
+    .basic-info > div > h1 {
+        font-size: 20px;
+    }
+
+    .basic-info > div > h5 {
+        font-size: 10px;
+    }
+
+    .basic-info > div > p {
+        font-size: 8px;
+    }
+
+    .socials > a {
+        margin: 0 5px;
+        font-size: 20px;
+        color: black;
+    }
+
+    .about, .experience, .project, .contact {
+        padding: 0 5px;
+    }
+
+    .project > h4 {
+      margin-top: 16px;
+    }
+
+    .Projects > h2 {
+      margin-left: 5px;
+    }
+
+    .tools > p {
+        font-size: 8px;
+        margin-left: 0px;
+        padding-left: 7px;
+        padding-right: 7px;
+        padding-top: 2px;
+        padding-bottom: 2px;
+    }
+
+    h2 {
+        font-size: 15px;
+    }
+
+    p {
+        font-size: 8px;
+    }
+
+    h3 {
+        font-size: 12px;
+    }
+
+    h4 {
+        font-size: 10px;
+    }
+
+    h5 {
+        font-size: 12px;
+    }
+}
